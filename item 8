@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>item 8</title>
+</head>
+<body>
+<script>
+  var X = parseInt(prompt("escreva um valor:"))
+  while(X <= 100){
+    document.write("<br>"+ X);
+    X++;
+  }
+</script>
+</body>
+</html>
