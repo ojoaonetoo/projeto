@@ -1,0 +1,23 @@
+!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>item 2</title>
+</head>
+<body>
+<script>
+var val = 1
+var dral = 10
+document.write("valores de 1 a 10 em ordem!")
+  while(val <= 10){
+    document.write("<br>"+ val);
+    val++
+  }
+  while(dral >= 1){
+    document.write("<br>"+ dral)
+    dral--
+  }
+</script>
+</body>
+</html>
