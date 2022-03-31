@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>item 5</title>
+    </head>  
+    <body>
+    <script> 
+    var obj = parseInt(prompt("escreva o codigo do produto"))
+    switch(obj){
+      case 1 : document.write("infelizmente, não perecível");
+      break;
+      case 2 : document.write("felizmente, perecível");
+      break;
+      case 3: document.write("blusa");
+      break;
+      case 4: document.write("shampoo");
+      break;
+      case 5: document.write("vassoura");
+      break;
+      default: alert("inválido!")
+    }
+    </script>
+    </body>
+    </html>
