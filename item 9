@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questao 9</title>
+</head>
+<body>
+<script>
+  var x = prompt("Digite um valor entre 1 e 10");
+  var tot = x * 1;
+  var tot2 = x * 2;
+  var tot3 = x * 3;
+  var tot4 = x * 4;
+  var tot5 = x * 5;
+  var tot6 = x * 6;
+  var tot7 = x * 7;
+  var tot8 = x * 8;
+  var tot9 = x * 9;
+  var tot10 = x * 10;
+
+  if(x >= 1 && x <= 10){
+    document.write("Resultado :" + tot + "<br>Resultado :" + tot2+"<br>Resultado :" 
+    + tot3+"<br>Resultado :" + tot4+"<br>Resultado :" + tot5+"<br>Resultado :" 
+    + tot6+"<br>Resultado :" + tot7+"<br>Resultado :" + tot8+"<br>Resultado :" + tot9+"<br>Resultado :" 
+    + tot10)
+  }else{
+    document.write("!!!!!!")
+  }
+</script>
+</body>
+</html>
