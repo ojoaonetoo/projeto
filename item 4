@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>item 4</title>
+    </head>
+    <body>
+    <script>
+    var prod = "bolsa"
+    var quant = 7
+    var valX = 9
+    var maio = quant * valX
+    var desc = maio * 0.03
+    var maioJ = maio - desc 
+    document.writeln("O total é: " + maio);
+    document.writeln(" <br>com desconto: " + maioJ) 
+    </script>
+    </body>
+    </html>
