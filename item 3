@@ -1,0 +1,25 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>questao 3</title>
+  <script> 
+var pesso = prompt("escreva seu nome")
+var anoZ = parseInt(prompt("qual ano voce nasceu"))
+var anoI = parseInt(prompt("qual ano voce ingressou: "))
+var anoX = 2022;
+var val = anoX - anoZ;
+var tamx = anoX - anoI; 
+if(val >= 65 && val <= 75 && tamx >= 30 && tamx <= 45 ){
+  document.write("trabalhando: "+ pesso)
+  document.write("<br> idade: "+val)
+  document.writeln("<br> tempo de trabalho: "+tamx)
+  document.writeln("terá aposentadoria")
+  }else if(val < 65 && val >= 0 && tamx < 30 && tamx >= 0){
+  document.writeln("Nao terá aposentadoria")}else if(val > 45 && tamx > 75  ){
+    document.write("Error!!!")
+  }
+  </script>
+</head>
+<body>
+</body>
+</html>
