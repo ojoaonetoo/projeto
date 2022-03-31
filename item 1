@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>atividade</title>
+  <script>  // 1 QUESTAO 
+var val = prompt("um valor:");
+
+if(val > 10 ){
+  alert("Valor é maior que 10!")
+} else if(val < 10 && val >= 1){
+  alert("Valor é Menor que 10!")
+}else if(val = 10){
+  alert("Valor é 10")
+}else{
+  alert("Valor nao existente!")
+} 
+</script>
+</head>
+<body>
+</body>
+</html>
