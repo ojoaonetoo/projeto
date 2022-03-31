@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>item 7</title>
+</head>
+<body>
+<script>
+  var Y = 100
+  document.write("valores:")
+  while(Y <= 110){
+    document.write("<br>"+Y);
+    Y++
+  }
+</script>
+</body>
+</html>
